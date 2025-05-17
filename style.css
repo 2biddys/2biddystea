@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf8f1;
+}
+
+.hero {
+    background: url('images/hero-image.jpg') center center / cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f4e6d3;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #b87333;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #944d1c;
+}
+
+.btn-secondary {
+    border: 2px solid #b87333;
+    color: #b87333;
+}
+
+.btn-secondary:hover {
+    background-color: #b87333;
+    color: white;
+}
